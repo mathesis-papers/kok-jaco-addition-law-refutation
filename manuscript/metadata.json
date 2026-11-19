@@ -1,0 +1,81 @@
+{
+  "id": "kok-jaco-addition-law-refutation",
+  "revision": 3,
+  "problem_ids": [
+    "kok-jaco-addition-law-refutation"
+  ],
+  "topic": "Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7",
+  "title": "Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)",
+  "creators": [
+    {
+      "name": "Ma, Haobo",
+      "affiliation": "ChronoAI Pte Ltd, Singapore"
+    },
+    {
+      "name": "Zhang, Wenlin",
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore"
+    }
+  ],
+  "abstract": "Extending the degree formulas of Patel (August 2026) and Raso–Kok (1 November 2026), we refute and correct Theorem 2.10 (Conjectured) of Kok, Fisher, Wilkens, Mabula and Mukungunugwa, arXiv:1404.0484v1, Section 2, page 7: the proposed addition law for maximum degrees of finite Jaco graphs fails at the distinct orders 3 and 11, even though both graphs have a unique maximum-degree vertex. Its other branch fails at orders 4 and 10. A floor formula gives the exact replacement: the addition defect is -1, 0 or 1, determined by two fractional parts rather than uniqueness. We also prove the same source's conjectured Lemma 2.2, give the partition requested on page 11, and correct the exceptional Fibonacci sums in Proposition 3.2. Patel's maximum-set identities supply the missing order condition in Theorem 2.3 and correct the edge assertion of Theorem 2.15. We give the recurrence form of Kok's 2016 Conjecture 2.16.1 and explain that its McPherson nonrepetition Conjecture 2.48.1 follows directly from the same article's Theorem 2.48 and the endpoint formula.",
+  "summary": "Both addition-law branches are refuted and replaced by an exact fractional-part identity, extended to any number of summands. The adjacent partition, nonrepetition, Fibonacci and local corrections use cited maximum-set tools. The three-maximizer recurrence reformulates Patel (2026); McPherson nonrepetition is an immediate consequence of Kok (2016), Theorem 2.48, and the endpoint formula.",
+  "license": "cc-by-4.0",
+  "evidence_url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean",
+  "posing_source_url": "https://arxiv.org/abs/1404.0484v1",
+  "verification": {
+    "lean": "JacoAdditionLawRefutation.result negates the full original law using orders 3 and 11 and uniqueness at order 3. JacoMaximumDegree.degree_formula and result give the degree and maximum formulas; the latter's floor clause has n>=2. JacoEndpointBeatty.endpoint_recurrence and endpoint_eq_beatty connect the recursion and endpoints.",
+    "written": "Uniqueness at order 11; second-branch counterexample; all-order multi-summand addition; Lemma 2.2; progression partitions; corrected Theorems 2.3 and 2.15, Proposition 2.8 and Proposition 3.2. Maximum-set identities are cited from Patel (2026); the three-maximizer recurrence reformulates that classification. McPherson nonrepetition follows directly from Kok (2016), Theorem 2.48, and the endpoint formula.",
+    "finite": "Recursive graphs through order 512, all distinct addition pairs through 256, all three-summand tuples through 32, progressions with step through 32, and all exploding subsets and cliques through order 12. Exact counts in checker-output.json."
+  },
+  "sibling_coverage": [
+    {
+      "locator": "Lemma 2.2, page 4; second open problem, page 11",
+      "status": "proved; converse (not asserted in the source) fails at n=5"
+    },
+    {
+      "locator": "First open problem, page 11",
+      "status": "proved and extended to every arithmetic progression",
+      "initial_partition": [
+        [
+          1,
+          44
+        ],
+        [
+          45,
+          99
+        ],
+        [
+          100,
+          154
+        ]
+      ]
+    },
+    {
+      "locator": "Theorem 2.3(a)-(b), pages 4-5",
+      "status": "refuted-and-corrected by adding n=R_k"
+    },
+    {
+      "locator": "Proposition 2.8, page 7",
+      "status": "proved for k>=3; boundary k=2 corrected"
+    },
+    {
+      "locator": "Theorem 2.15, page 9",
+      "status": "bound proved; edge refuted at n=19 and corrected by n=R_Delta"
+    },
+    {
+      "locator": "Proposition 3.2(a)-(d), pages 10-11",
+      "status": "(a)-(c) proved on the stated domain; (d) corrected at 5+5; extended domain also identifies 3+3"
+    },
+    {
+      "locator": "Kok (2016), Conjecture 2.48.1, page 91",
+      "status": "follows directly from Kok (2016), Theorem 2.48, and the endpoint formula; Upsilon_n=b_n-1"
+    },
+    {
+      "locator": "Kok (2016), Conjecture 2.16.1, page 73",
+      "status": "recurrence form and seed boundary only; prior classification Patel (2026); full maximum-set and never-singleton classifications treated separately"
+    },
+    {
+      "locator": "Fourth open problem, page 11: spanning-tree enumeration",
+      "status": "not covered"
+    }
+  ]
+}

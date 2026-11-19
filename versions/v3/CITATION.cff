@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, cite it."
+title: "Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)"
+authors:
+  - name: "Haobo Ma"
+  - name: "Wenlin Zhang"
+date-released: "2026-11-19"
+version: "3"
+url: "https://mathesis-omega-research.apps.chrono-ai.fun/papers/kok-jaco-addition-law-refutation?version=3"
+license: "CC-BY-4.0"

@@ -1,0 +1,14 @@
+{
+  "schema": "mathesis.materials.v1",
+  "work": "kok-jaco-addition-law-refutation",
+  "version": 3,
+  "repository_url": "https://github.com/mathesis-papers/kok-jaco-addition-law-refutation",
+  "site_url": "https://papers.trureturing.org/kok-jaco-addition-law-refutation/",
+  "doi": null,
+  "reading": {
+    "en": "https://papers.trureturing.org/kok-jaco-addition-law-refutation/en/",
+    "zh": "https://papers.trureturing.org/kok-jaco-addition-law-refutation/zh/"
+  },
+  "slides": [],
+  "visualizations": []
+}
