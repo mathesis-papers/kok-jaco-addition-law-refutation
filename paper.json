@@ -28,9 +28,9 @@
         "name": "Wenlin Zhang"
       }
     ],
-    "concept_doi": null,
+    "concept_doi": "10.5281/zenodo.24369123",
     "current_version": 3,
-    "doi": null,
+    "doi": "10.5281/zenodo.24369124",
     "lean_source": {
       "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
       "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean"
