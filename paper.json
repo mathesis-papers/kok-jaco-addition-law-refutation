@@ -31,6 +31,7 @@
     "concept_doi": "10.5281/zenodo.24369123",
     "current_version": 3,
     "doi": "10.5281/zenodo.24369124",
+    "kind": "note",
     "lean_source": {
       "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
       "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean"
@@ -55,10 +56,12 @@
     "title": "Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)",
     "versions": [
       {
+        "changelog": null,
         "previous_version": null,
         "published_on": "2026-11-19T11:59:32.383014529Z",
         "revision": "3",
-        "version": 3
+        "version": 3,
+        "version_label": null
       }
     ],
     "work": "kok-jaco-addition-law-refutation"
